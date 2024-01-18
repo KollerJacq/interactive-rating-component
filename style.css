@@ -42,7 +42,7 @@ body {
   left: 15px;
   width: 17px;
 }
-.btn {
+.submit {
   background-color: hsl(25, 97%, 53%);
   color: #fff;
   width: 341px;
@@ -51,8 +51,9 @@ body {
   font-weight: bold;
   margin: 30px 30px 30px;
   letter-spacing: 2px;
+  padding-top: 10px;
 }
-.btn:hover {
+.submit:hover {
   background-color: #fff;
   color: hsl(25, 97%, 53%);
   cursor: pointer;
@@ -65,11 +66,24 @@ body {
 .col {
   color: #fff;
   font-size: 16px;
-  margin: 15px 0 0 21px;
   opacity: 0.5;
+}
+.col:hover {
+  opacity: 1;
 }
 .circle {
   background-color: hsl(216, 12%, 23%);
+  border-radius: 90px;
+  width: 51px;
+  height: 51px;
+  margin: 0 auto;
+}
+.circle:hover {
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+}
+.selected {
+  background-color: hsl(217, 12%, 63%);
   border-radius: 90px;
   width: 51px;
   height: 51px;
