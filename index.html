@@ -50,33 +50,37 @@
         </p>
         <div class="wrapper">
           <button class="circle btn" id="circle-1">
-            <div class="col">1</div>
+            <div class="rate">1</div>
           </button>
           <button class="circle btn" id="circle-2">
-            <div class="col">2</div>
+            <div class="rate">2</div>
           </button>
           <button class="circle btn" id="circle-3">
-            <div class="col">3</div>
+            <div class="rate">3</div>
           </button>
           <button class="circle btn" id="circle-4">
-            <div class="col">4</div>
+            <div class="rate">4</div>
           </button>
           <button class="circle btn" id="circle-5">
-            <div class="col">5</div>
+            <div class="rate">5</div>
           </button>
         </div>
-        <button class="btn submit" onclick="changeSubmit()">Submit</button>
+        <button class="submit btn">Submit</button>
       </div>
-      <!-- Rating state end -->
+    </div>
+    <!-- Rating state end -->
 
-      <!-- Thank you state start -->
-      <div class="card hidden">
-        <img src="images/illustration-thank-you.svg" alt="" />
-        <p class="selected-rating">
-          You selected
-          <!-- Add rating here -->
-          out of 5
-        </p>
+    <!-- Thank you state start -->
+    <div class="container-thanks hidden">
+      <div class="card thanks">
+        <img src="images/illustration-thank-you.svg" class="icon-thanks" />
+        <div class="background">
+          <p class="selected-rating">
+            You selected <span class="rating"></span>
+            <!-- Add rating here -->
+            out of 5
+          </p>
+        </div>
         <h1 class="card-title-thanks">Thank you!</h1>
         <p class="card-body-thanks">
           We appreciate you taking the time to give a rating. If you ever need

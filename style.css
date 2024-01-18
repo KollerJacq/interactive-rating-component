@@ -63,12 +63,12 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   padding: 0 20px;
 }
-.col {
+.rate {
   color: #fff;
   font-size: 16px;
   opacity: 0.5;
 }
-.col:hover {
+.rate:hover {
   opacity: 1;
 }
 .circle {
@@ -88,4 +88,35 @@ body {
   width: 51px;
   height: 51px;
   margin: 0 auto;
+}
+.thanks {
+  color: #fff;
+  text-align: center;
+}
+.icon-thanks {
+  margin: 45px auto 30px;
+  width: 162px;
+}
+.background {
+  background-color: hsl(216, 12%, 23%);
+  width: 193px;
+  height: 32px;
+  border-radius: 20px;
+  margin: 0 auto 30px;
+}
+.selected-rating {
+  color: hsl(25, 97%, 53%);
+  font-size: 15px;
+  line-height: 24px;
+  margin-top: 6px;
+}
+.card-title-thanks {
+  font-size: 28px;
+  font-weight: bold;
+}
+.card-body-thanks {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  margin: 0 35px 45px;
+  line-height: 24px;
 }
